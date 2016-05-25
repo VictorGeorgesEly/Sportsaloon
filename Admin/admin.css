@@ -1,0 +1,60 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0; padding: 0;
+}
+
+body{
+	display : table;
+	min-height: 100%;
+}
+
+.boutton {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 8% 16%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 3px;
+  max-width: 100%;
+  height: auto;
+}
+
+.boutton {
+    background-color: white;
+    color: black;
+    border: 2px solid #337ab7;
+}
+
+.boutton:hover {
+    background-color: #337ab7;
+    color: white;
+}
+
+.container{
+  padding:0.01em
+}
+
+.container1{
+  padding-left: 1%
+}
+
+.menu{
+  height:100%;
+  box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  color:#000;background-color:#fff;
+  position:fixed;
+  z-index:1;
+}
+
+.imageconnexion{
+	max-width: 100%;
+	height: auto;
+}
